@@ -8,3 +8,41 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+
+.container{
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* HEADER */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+nav .logo img{
+    max-width: 200px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav .burger{
+    display: none;
+    cursor: pointer;
+}
+
+nav .burger-nav-list-container{
+    display: none;
+}

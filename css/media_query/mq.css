@@ -1,0 +1,48 @@
+/* REGOLE GENERALI */
+@media all and (max-width: 767px) {
+
+    .container{
+        width: 95%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px)  {
+
+    .container{
+        width: 90%;
+    }
+}
+
+
+/* HEADER */
+@media all and (max-width: 991px) {
+
+    .nav_list{
+        display: none
+    }
+
+    nav .burger{
+        display: block;
+    }
+
+    nav{
+        position: relative;
+    }
+
+    nav .burger:hover .burger-nav-list-container{
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 80px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav .burger:hover .burger-nav-list-container li{
+        display: block;
+        margin: 10px auto;
+    }
+
+
+}
