@@ -37,12 +37,32 @@
         top: 80px;
         display: flex;
         justify-content: space-around;
+        background-color: #fff;
     }
 
     nav .burger:hover .burger-nav-list-container li{
         display: block;
         margin: 10px auto;
     }
+}
 
 
+/* JUMBOTRON */
+@media all and (max-width: 991px) {
+
+    #jumbotron .container{
+        flex-wrap: wrap;
+    }
+
+    #jumbotron .jumbo-text, #jumbotron .jumbo-login{
+        width: 80%;
+    }
+
+    #jumbotron .jumbo-text{
+        margin: 40px auto 0 auto;
+    }
+
+    #jumbotron .jumbo-login{
+        margin: 10px auto 40px auto;
+    }
 }

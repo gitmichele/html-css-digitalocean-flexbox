@@ -46,3 +46,30 @@ nav .burger{
 nav .burger-nav-list-container{
     display: none;
 }
+
+
+
+#jumbotron{
+    background-color: lightblue;
+}
+
+#jumbotron .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#jumbotron .jumbo-text, #jumbotron .jumbo-login{
+    height: 350px;
+    border: 1px solid black;
+}
+
+#jumbotron .jumbo-text{
+    width: 50%;
+    margin: 40px 0;
+}
+
+#jumbotron .jumbo-login{
+    width: 40%;
+    margin: 40px 0;
+}
