@@ -15,6 +15,10 @@ body{
     margin: 0 auto;
 }
 
+main > section{
+    padding: 60px 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -48,7 +52,7 @@ nav .burger-nav-list-container{
 }
 
 
-
+/* JUMBOTRON */
 #jumbotron{
     background-color: lightblue;
 }
@@ -72,4 +76,41 @@ nav .burger-nav-list-container{
 #jumbotron .jumbo-login{
     width: 40%;
     margin: 40px 0;
+}
+
+
+
+
+/* DEPLOY AND SCALE */
+#deploy-scale h2{
+    border: 1px solid black;
+    height: 150px;
+    width: 50%;
+    margin: 0 auto 40px auto;
+}
+
+#deploy-scale .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#deploy-scale .deploy-list-container{
+    width: 25%;
+    height: 400px;
+    border: 1px solid black;
+}
+
+#deploy-scale .deploy-text-container{
+    width: 75%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#deploy-scale .deploy-text{
+    width: 50%;
+    height: 250px;
+    border: 1px solid black
 }

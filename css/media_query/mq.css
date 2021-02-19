@@ -66,3 +66,28 @@
         margin: 10px auto 40px auto;
     }
 }
+
+
+
+/* DEPLOY AND SCALE */
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+
+    #deploy-scale .deploy-text{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 767px) {
+
+
+        #deploy-scale .deploy-text{
+            width: 100%;
+        }
+
+
+    #deploy-scale .container{
+        display: block;
+    }
+
+}
