@@ -81,13 +81,42 @@
 @media all and (max-width: 767px) {
 
 
-        #deploy-scale .deploy-text{
-            width: 100%;
-        }
+    #deploy-scale .deploy-text{
+        width: 100%;
+    }
 
 
     #deploy-scale .container{
         display: block;
     }
+}
 
+
+
+/* FOOTER */
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+    footer .footer-list{
+        height: 350px;
+        width: 50%;
+        border: 1px solid black;
+    }
+}
+
+@media all and (max-width: 767px) {
+
+
+    footer .logo-footer{
+        width: 100%;
+    }
+
+    footer .footer-list{
+        width: 100%;
+    }
+
+    footer .footer-list{
+        height: 350px;
+        width: 100%;
+        border: 1px solid black;
+    }
 }
